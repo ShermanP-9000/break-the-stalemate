@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Break the Stalemate - AI Boost",
+    "uniques": [
+      "[+40]% Production toward units in [Future Era]",
+      "[+25]% [Uranium] from [Future Tech] onward",
+      "[-60]% Unhappiness from [Nuclear weapon of Strength] use",
+      "AI is more willing to use nuclear weapons",
+      "[+20]% [Science] from [Future Tech] onward",
+      "[-30]% War weariness"
+    ]
+  }
+]
