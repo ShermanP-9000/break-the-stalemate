@@ -1,17 +1,64 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+  {
+    "name": "Tac-nuke",
+    "unitType": "Missile",
+    "movement": 10,
+    "strength": 12000,
+    "rangedStrength": 12000,
+    "range": 17,
+    "cost": 2778,
+    "requiredTech": "Nuclear Fusion",
+    "requiredResource": "Uranium",
+    "uniques": ["Nuclear weapon of Strength [3]", "Only available <if [Manhattan Project] is constructed>", "Blast radius [1]", "Consumes [1] [Oil]"],
+    "attackSound": "nuke"
+  },
+  {
+    "name": "Salted Thermonuclear Weapon",
+    "unitType": "Missile",
+    "movement": 10,
+    "strength": 0,
+    "rangedStrength": 4500,
+    "range": 40,
+    "cost": 18500,
+    "requiredTech": "Future Tech",
+    "requiredResource": "Uranium",
+    "uniques": ["Nuclear weapon of Strength [3]", "Only available <if [Manhattan Project] is constructed>", "Blast radius [10]", "Consumes [10] [Uranium]", "Consumes [1] [Oil]"],
+    "attackSound": "nuke"
+  },
+  {
+    "name": "Long-Range Arsenal Ship",
+    "unitType": "Battleship",
+    "movement": 6,
+    "strength": 1200,
+    "rangedStrength": 3800,
+    "range": 10,
+    "cost": 16800,
+    "requiredTech": "Future Tech",
+    "uniques": ["Can move after attacking", "Bonus vs Naval Units [50]", "Ranged attack can target units 10 tiles away", "Ignores Zone of Control", "Ignores fallout damage"],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "Decontamination Crew",
+    "unitType": "Civilian",
+    "movement": 2,
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 1,
+    "cost": 280,
+    "requiredTech": "Nuclear Fission",
+    "uniques": ["Can build [Scrub Fallout]", "Can move after building", "Ignores fallout damage"],
+    "attackSound": "click"
+  },
+  {
+    "name": "Surveillance Satellite",
+    "unitType": "Civilian",
+    "movement": 8,
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 1,
+    "cost": 6500,
+    "requiredTech": "Future Tech",
+    "uniques": ["Can move over any terrain", "Ignores all terrain costs", "Reveals all tiles in a [20] tile radius", "Cannot be captured", "Cannot attack"],
+    "attackSound": "click"
+  }
 ]
