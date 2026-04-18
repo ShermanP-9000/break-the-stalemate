@@ -1,0 +1,8 @@
+{
+  "name": "Break the Stalemate",
+  "author": "sherman",
+  "description": " This mod is designed to make the late game a bit more interesting and hopefully stop the AI from not doing anything for centuries",
+  "modOptions": {
+    "isBaseRuleset": false
+  }
+}
