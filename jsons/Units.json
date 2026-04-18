@@ -16,7 +16,7 @@
     "name": "Salted Thermonuclear Weapon",
     "unitType": "Missile",
     "movement": 10,
-    "strength": 0,
+    "strength": 1500,
     "rangedStrength": 4500,
     "range": 40,
     "cost": 18500,
@@ -34,7 +34,7 @@
     "range": 10,
     "cost": 16800,
     "requiredTech": "Future Tech",
-    "uniques": ["Can move after attacking", "Bonus vs Naval Units [50]", "Ranged attack can target units 10 tiles away", "Ignores Zone of Control", "Ignores fallout damage"],
+    "uniques": ["Can move after attacking", "Bonus vs Naval Units [50]", "Ignores Zone of Control", "Ignores fallout damage"],
     "attackSound": "shipguns"
   },
   {
@@ -46,7 +46,7 @@
     "range": 1,
     "cost": 280,
     "requiredTech": "Nuclear Fission",
-    "uniques": ["Can build [Scrub Fallout]", "Can move after building", "Ignores fallout damage"],
+    "uniques": ["Can build [Remove Fallout]", "Can move after building", "Ignores fallout damage"],
     "attackSound": "click"
   },
   {
@@ -58,7 +58,7 @@
     "range": 1,
     "cost": 6500,
     "requiredTech": "Future Tech",
-    "uniques": ["Can move over any terrain", "Ignores all terrain costs", "Reveals all tiles in a [20] tile radius", "Cannot be captured", "Cannot attack"],
+    "uniques": ["Can move over any terrain", "Ignores all terrain costs", "Reveals all tiles in [20] tile radius", "Cannot be captured", "Cannot attack"],
     "attackSound": "click"
   }
 ]
