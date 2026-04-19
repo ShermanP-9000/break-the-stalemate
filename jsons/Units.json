@@ -9,7 +9,7 @@
     "cost": 2778,
     "requiredTech": "Nuclear Fusion",
     "requiredResource": "Uranium",
-    "uniques": ["Nuclear weapon of Strength [3]", "Blast radius [1]", "Consumes [1] [Oil]"],
+    "uniques": ["Nuclear weapon of Strength [3]", "Blast radius [1]"],
     "attackSound": "nuke"
   },
   {
