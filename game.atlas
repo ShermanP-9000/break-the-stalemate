@@ -1,45 +1,34 @@
+
 game.png
-size: 1024, 256
+size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-
-UnitIcons/Tac-nuke
+BuildingIcons/Breeders
   rotate: false
-  xy: 30, 30
-  size: 140, 140
-  orig: 200, 200
-  offset: 30, 30
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
   index: -1
-
-UnitIcons/Salted Thermonuclear Weapon
+BuildingIcons/Holodeck
   rotate: false
-  xy: 250, 30
-  size: 140, 140
-  orig: 200, 200
-  offset: 30, 30
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
   index: -1
-
-UnitIcons/Long-Range Arsenal Ship
+NationIcons/Aliens
   rotate: false
-  xy: 470, 30
-  size: 140, 140
-  orig: 200, 200
-  offset: 30, 30
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
   index: -1
-
-UnitIcons/Decontamination Crew
+UnitIcons/Phasers
   rotate: false
-  xy: 690, 30
-  size: 140, 140
-  orig: 200, 200
-  offset: 30, 30
-  index: -1
-
-UnitIcons/Surveillance Satellite
-  rotate: false
-  xy: 910, 30
-  size: 140, 140
-  orig: 200, 200
-  offset: 30, 30
+  xy: 328, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
   index: -1
