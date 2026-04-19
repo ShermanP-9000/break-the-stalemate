@@ -11,5 +11,54 @@
     "requiredResource": "Uranium",
     "uniques": ["Nuclear weapon of Strength [3]", "Blast radius [1]", "Consumes [1] [Oil]"],
     "attackSound": "nuke"
+  },
+  {
+    "name": "Salted Thermonuclear Weapon",
+    "unitType": "Missile",
+    "movement": 10,
+    "strength": 1500,
+    "rangedStrength": 4500,
+    "range": 40,
+    "cost": 18500,
+    "requiredTech": "Future Tech",
+    "requiredResource": "Uranium",
+    "uniques": ["Nuclear weapon of Strength [3]", "Blast radius [10]", "Consumes [10] [Uranium]", "Consumes [1] [Oil]"],
+    "attackSound": "nuke"
+  },
+  {
+    "name": "Long-Range Arsenal Ship",
+    "unitType": "Battleship",
+    "movement": 6,
+    "strength": 1200,
+    "rangedStrength": 3800,
+    "range": 10,
+    "cost": 16800,
+    "requiredTech": "Future Tech",
+    "uniques": ["Can move after attacking", "Bonus vs Naval Units [50]", "Ignores Zone of Control", "Ignores fallout damage"],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "Decontamination Crew",
+    "unitType": "Civilian",
+    "movement": 2,
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 1,
+    "cost": 280,
+    "requiredTech": "Nuclear Fission",
+    "uniques": ["Can build [Remove Fallout]", "Can move after building", "Ignores fallout damage"],
+    "attackSound": "click"
+  },
+  {
+    "name": "Surveillance Satellite",
+    "unitType": "Civilian",
+    "movement": 8,
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 1,
+    "cost": 6500,
+    "requiredTech": "Future Tech",
+    "uniques": ["Can move over any terrain", "Ignores all terrain costs", "Reveals all tiles in [20] tile radius", "Cannot be captured", "Cannot attack"],
+    "attackSound": "click"
   }
 ]
