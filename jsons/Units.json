@@ -27,14 +27,14 @@
   },
   {
     "name": "Long-Range Arsenal Ship",
-    "unitType": "Battleship",
+    "unitType": "WaterRanged",
     "movement": 6,
     "strength": 1200,
     "rangedStrength": 3800,
     "range": 10,
     "cost": 16800,
     "requiredTech": "Future Tech",
-    "uniques": ["Can move after attacking", "Bonus vs Naval Units [50]", "Ignores Zone of Control", "Ignores fallout damage"],
+    "uniques": ["Can move after attacking", "Ignores Zone of Control", "Ignores fallout damage"],
     "attackSound": "shipguns"
   },
   {
@@ -46,11 +46,11 @@
     "range": 1,
     "cost": 280,
     "requiredTech": "Nuclear Fission",
-    "uniques": ["Can build [Remove Fallout]", "Can move after building", "Ignores fallout damage"],
+    "uniques": ["Can move after building", "Ignores fallout damage"],
     "attackSound": "click"
   },
   {
-    "name": "Surveillance Satellite",
+    "name": "Terraformer Satellite",
     "unitType": "Civilian",
     "movement": 8,
     "strength": 0,
@@ -58,7 +58,13 @@
     "range": 1,
     "cost": 6500,
     "requiredTech": "Future Tech",
-    "uniques": ["Can move over any terrain", "Ignores all terrain costs", "Reveals all tiles in [20] tile radius", "Cannot be captured", "Cannot attack"],
+    "uniques": [
+      "Can move over any terrain",
+      "Ignores all terrain costs",
+      "Turn this tile into a [Ocean] tile",
+      "Cannot be captured",
+      "Cannot attack"
+    ],
     "attackSound": "click"
   }
 ]
