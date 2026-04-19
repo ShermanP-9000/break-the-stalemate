@@ -6,40 +6,40 @@ repeat: none
 
 UnitIcons/Tac-nuke
   rotate: false
-  xy: 20, 20
-  size: 180, 180
+  xy: 30, 30
+  size: 140, 140
   orig: 200, 200
-  offset: 10, 10
+  offset: 30, 30
   index: -1
 
 UnitIcons/Salted Thermonuclear Weapon
   rotate: false
-  xy: 240, 20
-  size: 180, 180
+  xy: 250, 30
+  size: 140, 140
   orig: 200, 200
-  offset: 10, 10
+  offset: 30, 30
   index: -1
 
 UnitIcons/Long-Range Arsenal Ship
   rotate: false
-  xy: 460, 20
-  size: 180, 180
+  xy: 470, 30
+  size: 140, 140
   orig: 200, 200
-  offset: 10, 10
+  offset: 30, 30
   index: -1
 
 UnitIcons/Decontamination Crew
   rotate: false
-  xy: 680, 20
-  size: 180, 180
+  xy: 690, 30
+  size: 140, 140
   orig: 200, 200
-  offset: 10, 10
+  offset: 30, 30
   index: -1
 
 UnitIcons/Surveillance Satellite
   rotate: false
-  xy: 900, 20
-  size: 180, 180
+  xy: 910, 30
+  size: 140, 140
   orig: 200, 200
-  offset: 10, 10
+  offset: 30, 30
   index: -1
